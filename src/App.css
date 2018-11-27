@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+}
+
+.left-area{
+  display: flex;
+  flex-direction: row;
+  background: red;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+
+.left-area-2-a{
+  height: 80px;
+  width: 400px;
+  background: white;
+  margin-left: 20px;
+  margin-right:20px;
+  align-content: center;
+}
+.left-area-2-b{
+  height: 80px;
+  width: 400px;
+  background: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right:20px;
+  align-content: center;
+
+}
+.left-area-2-c{
+  height: 80px;
+  width: 400px;
+  background: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right:20px;
+  align-content: center;
+
+}
+
+.right-area {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  width: 50%;
+}
+
+.right-area-2{
+  height: 100px;
+  width: 100px;
+  background: red;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 10px;
+}
+.right-area-2-a{
+  height: 100px;
+  width: 400px;
+  background: red;
+  margin-top: 130px;
+  margin-right: 20px;
+  margin-left: 300px;
+}
+.right-area-2-b {
+  height: 50px;
+  width: 200px;
+  background: red;
+  margin-top:10px;
+  margin-left: 300px;
+  margin-right: 20px; 
+  align-items: center;
+
+}
+
+.right-area-2-c{
+  height: 50px;
+  width: 200px;
+  background: red;
+  margin-top:10px;
+  margin-left: 300px;
+  margin-right: 20px; 
+  align-items: center;
+
+}
+.footer{
+  width:100%;
+  height: 10%;
+  background: silver;
+}
